@@ -20,7 +20,7 @@ function calculate(operator) {
       break;
     case "%":
       finalAnswer.innerText =
-        number2 === 0 ? "Cannot divide by zero" : `${number1 / number2}`;
+        number2 === 0 ? "Cannot divide by zero" : `${number1 % number2}`;
       break;
     case "++":
       number1++;
